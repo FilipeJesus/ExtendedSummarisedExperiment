@@ -8,7 +8,7 @@ ExtendedSummarisedExperiment(ExonMatrix=NULL, ExonDescription=NULL, VarientInfo=
 creates a 'ExtendedSummarisedExperiment' object. This stores the isoform, gene and exon count matrix's,
 }
 \examples{
-nrows <- 200; ncols <- 6
+"nrows <- 200; ncols <- 6
 counts <- matrix(runif(nrows * ncols, 1, 1e4), nrows)
 rowRanges <- GRanges(rep(c("chr1", "chr2"), c(50, 150)),
                      IRanges(floor(runif(200, 1e5, 1e6)), width=100),
@@ -25,5 +25,5 @@ example <- ExtendedSummarisedExperiment(
   IsoformDescription=matrix(0,0,0),
   counts = counts,
   rowRanges = rowRanges,
-  colData = colData)
+  colData = colData)"
 }
