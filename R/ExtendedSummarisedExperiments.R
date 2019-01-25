@@ -1,3 +1,29 @@
+#' @title ExtendedSummarisedExperiment
+#'
+#' @description creates a 'ExtendedSummarisedExperiment' object.
+#'
+#' @param ExonMatrix
+#'
+#' @param ExonDescription
+#'
+#' @param VarientInfo
+#'
+#' @param IsoformMatrix
+#'
+#' @param IsoformDescription
+#'
+#' @param counts
+#'
+#' @param rowRanges
+#'
+#' @param colData
+#'
+#' @return object
+#'
+#' @examples ExtendedSummarisedExperiment(ExonMatrix=matrix(0,0,0), ExonDescription=matrix(0,0,0), VarientInfo=matrix(0,0,0), IsoformMatrix=matrix(0,0,0), IsoformDescription=matrix(0,0,0), counts = counts, rowRanges = rowRanges, colData = colData)
+#'
+#' @export ExtendedSummarisedExperiment
+
 # Hello, world!
 #
 # This is an example function named 'ExtendedSummarisedExperients'
