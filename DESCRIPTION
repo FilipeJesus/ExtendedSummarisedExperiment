@@ -1,11 +1,9 @@
 Package: ExtendedSummarisedExperiment
 Type: Package
-Title: What the Package Does (Title Case)
+Title: ExtendedSummarisedExperiment
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
-Encoding: UTF-8
+Author: Filipe Jesus
+Maintainer: Filipe Jesus <filipeje@hotmail.co.uk>
+Description: A Extended summarised experiment object which allows you to store gene, exon and isoform data seperatly.
+License: Artistic-2.0
 LazyData: true
